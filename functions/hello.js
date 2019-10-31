@@ -1,6 +1,6 @@
 exports.handler = async {event, context} => {
-  return {
+  return (
     statusCode: 200,
     body: 'HEY THERE!'
-  };
+  );
 }
